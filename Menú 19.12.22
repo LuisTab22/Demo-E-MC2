@@ -1,0 +1,28 @@
+Algoritmo Menú
+	definir op, n1, n2, r como numero
+	Repetir
+		Escribir "---MENU---"
+		Escribir "1. Sumar"
+		Escribir "2. Restar"
+		Escribir "0. para salir"
+		Escribir "Ingrese una opción"
+		leer op
+		//Generar el menú
+		si op==1
+			escribir "Ingrese un valor "
+			leer n1
+			escribir "Ingrese un valor "
+			leer n2
+			r=n1+n2
+			Escribir "El resultado es ",r
+		FinSi
+		Si op==2
+			escribir "Ingrese un valor "
+			leer n1
+			escribir "Ingrese un valor "
+			leer n2
+			r=n1-n2
+			Escribir "El resultado es ",r
+		FinSi
+	Hasta Que op==0
+FinAlgoritmo
